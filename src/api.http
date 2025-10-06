@@ -1,0 +1,12 @@
+### Recuperar info del poke
+GET http://localhost:3000/pokemon/ditto
+
+### Crear un nuevo poke
+POST http://localhost:3000/pokemon
+Content-Type: application/json 
+
+{
+  "name": "Pikacvvhu",
+  "type": "Electric"
+}
+
